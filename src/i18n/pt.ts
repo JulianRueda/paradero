@@ -98,7 +98,7 @@ export const pt: Messages = {
 
   common: { retry: "Tentar de novo", station: "Estação", stop: "Ponto", accessible: "Acessível", done: "Pronto", close: "Fechar", clear: "Limpar" },
 
-  map: { webOnly: "O mapa está disponível no app para iOS e Android." },
+  map: { webOnly: "Esquema das troncais, não ao vivo. O mapa ao vivo está no app para iOS e Android." },
 
   stopRow: { open: "Abre as próximas chegadas" },
   routeRow: { open: "Abre o trajeto e os ônibus em circulação" },

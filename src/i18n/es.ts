@@ -101,7 +101,7 @@ export const es = {
 
   common: { retry: "Reintentar", station: "Estación", stop: "Paradero", accessible: "Accesible", done: "Listo", close: "Cerrar", clear: "Borrar" },
 
-  map: { webOnly: "El mapa está disponible en la app para iOS y Android." },
+  map: { webOnly: "Esquema de las troncales, no en vivo. El mapa en vivo está en la app para iOS y Android." },
 
   stopRow: { open: "Abre las próximas llegadas" },
   routeRow: { open: "Abre el recorrido y los buses en vía" },
