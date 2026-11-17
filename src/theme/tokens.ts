@@ -25,6 +25,12 @@ export const layout = {
   badgeColumn: 116,
   mapInset: { top: 96, right: space[6], bottom: space[10], left: space[6] },
   sheetMap: 0.38,
+  /** Web: the widest a reading column gets (onboarding, forms) and the widest a tab's content gets. */
+  column: 560,
+  content: 720,
+  /** Web: from this width the tabs move to a side rail of `rail` width. */
+  wide: 900,
+  rail: 240,
 } as const;
 
 /** Instrument Sans for everything people read or tap; DM Mono for codes, times and labels. */

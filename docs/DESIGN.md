@@ -44,6 +44,10 @@ Paradero se viste con **Trazo**: la red de Bogotá dibujada como un mapa de metr
 
 `npm run check` mide el texto de las insignias (`lineText`) sobre cada `fill`: todas pasan AA.
 
+## Web
+
+Las pestañas nativas no existen en web, así que `src/app/(tabs)/_layout.web.tsx` las dibuja: barra inferior en pantallas angostas y, desde `layout.wide` (900), barra lateral de `layout.rail` con las etiquetas siempre visibles y la pestaña abierta en tinta. El contenido de cada pestaña se queda en una columna de hasta `layout.content` (720) y el onboarding en una de `layout.column` (560), para que nada se estire de borde a borde en una pantalla grande.
+
 ## Movimiento
 
 Nada rebota. Todo entra con una curva que se asienta (`src/theme/motion.ts`): `motion.enter` para contenido que llega, `motion.appear` para superficies, `motion.layout` para filas que cambian de lugar. Sin resortes. Y con "Reducir movimiento" activo, nada se mueve.
