@@ -98,7 +98,6 @@ export const fr: Messages = {
 
   common: { retry: "Réessayer", station: "Station", stop: "Arrêt", accessible: "Accessible", done: "Terminé", close: "Fermer", clear: "Effacer" },
 
-  map: { webOnly: "Schéma des lignes principales, pas en direct. La carte en direct est dans l’app iOS et Android." },
 
   stopRow: { open: "Ouvre les prochains passages" },
   routeRow: { open: "Ouvre le trajet et les bus en circulation" },

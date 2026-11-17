@@ -29,6 +29,7 @@
     "expo-symbols": "~58.0.4",
     "expo-system-ui": "~58.0.7",
     "expo-web-browser": "~58.0.7",
+    "maplibre-gl": "^6.18.0",
     "number-flow-react-native": "^0.5.1",
     "pressto": "^0.8.2",
     "react": "19.3.0",
